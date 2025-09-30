@@ -1,0 +1,10 @@
+# Set the main path to your dataset directory
+path: C:\Users\gokul\test\dataset
+
+# Define the paths RELATIVE to the main path above
+train: images/train  # This resolves to C:\Users\gokul\test\dataset\images\train
+val: images/val      # This resolves to C:\Users\gokul\test\dataset\images\val
+
+# --- Model Configuration ---
+nc: 2
+names: ['car', 'ambulance']

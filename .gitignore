@@ -1,0 +1,36 @@
+# Large files that shouldn't be in version control
+*.h5
+*.mp4
+*.pt
+*.weights
+
+# Large datasets
+dataset/images/
+dataset/allimage/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+
+# Model files
+models/
+checkpoints/
+
+# Large data files
+*.zip
+*.tar
+*.gz
+*.rar
